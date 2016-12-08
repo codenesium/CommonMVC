@@ -175,6 +175,7 @@
     <Compile Include="MVC\Constants.cs" />
     <Compile Include="MVC\IApiResponse.cs" />
     <Compile Include="MVC\ResponseHelper.cs" />
+    <Compile Include="MVC\Swagger\SwaggerController.cs" />
     <Compile Include="MVC\ValidationErrorModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
