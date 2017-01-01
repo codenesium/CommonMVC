@@ -13,6 +13,7 @@ namespace Codenesium.Foundation.CommonMVC
         public bool ReloadApplication { get; set; }
         public string Message { get; set; }
         public object Data { get; set; }
+        public string RedirectUrl { get; set; }
         public List<ValidationErrorModel> ValidationErrors { get; set; }
 
         public ApiSuccessResponse(string message)

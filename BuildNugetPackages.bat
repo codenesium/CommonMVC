@@ -1,2 +1,2 @@
-nuget pack CommonMVC.csproj  -IncludeReferencedProjects  -o  ../NugetPackages
+nuget pack CommonMVC.csproj   -o  ../NugetPackages
 

@@ -7,20 +7,25 @@ using System.Linq;
 namespace Codenesium.Foundation.CommonMVC
 {
     [Serializable]
-    public class ApiDataResponse : IApiResponse
+    public class ApiRedirectResponse : IApiResponse
     {
         public bool Success { get; set; }
         public bool ReloadApplication { get; set; }
         public string Message { get; set; }
-        public object Data { get; set; }
         public string RedirectUrl { get; set; }
-
+        public object Data { get; set; }
         public List<ValidationErrorModel> ValidationErrors { get; set; }
 
-        public ApiDataResponse(object data)
+        public ApiRedirectResponse(string redirectUrl)
         {
             this.Success = true;
-            this.Data = data;
+            this.RedirectUrl = redirectUrl;
+        }
+
+        public ApiRedirectResponse()
+        {
+            this.Success = true;
+            this.Message = String.Empty;
         }
     }
 }

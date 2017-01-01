@@ -10,6 +10,7 @@ namespace Codenesium.Foundation.CommonMVC
     {
         bool Success { get; set; }
         bool ReloadApplication { get; set; }
+        string RedirectUrl { get; set; }
         string Message { get; set; }
         object Data { get; set; }
         List<ValidationErrorModel> ValidationErrors { get; set; }
