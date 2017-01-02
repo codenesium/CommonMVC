@@ -26,6 +26,7 @@ namespace Codenesium.Foundation.CommonMVC
             this.Success = false;
             this.Message = message;
             this.ValidationErrors = ProcessFluentValidationErrors(validationErrors);
+            this.RedirectUrl = String.Empty;
         }
 
         /// <summary>
@@ -38,6 +39,7 @@ namespace Codenesium.Foundation.CommonMVC
             this.Success = false;
             this.Message = message;
             this.ValidationErrors = validationErrors;
+            this.RedirectUrl = String.Empty;
         }
 
         public ApiFailureResponse(string message)
@@ -45,6 +47,7 @@ namespace Codenesium.Foundation.CommonMVC
             this.Success = false;
             this.Message = message;
             this.ValidationErrors = new List<ValidationErrorModel>();
+            this.RedirectUrl = String.Empty;
         }
 
         private List<ValidationErrorModel> ProcessFluentValidationErrors(IList<ValidationFailure> validationErrors)

@@ -21,6 +21,7 @@ namespace Codenesium.Foundation.CommonMVC
         {
             this.Success = true;
             this.Data = data;
+            this.RedirectUrl = String.Empty;
         }
     }
 }

@@ -20,12 +20,14 @@ namespace Codenesium.Foundation.CommonMVC
         {
             this.Success = true;
             this.Message = message;
+            this.RedirectUrl = String.Empty;
         }
 
         public ApiSuccessResponse()
         {
             this.Success = true;
             this.Message = String.Empty;
+            this.RedirectUrl = String.Empty;
         }
     }
 }
