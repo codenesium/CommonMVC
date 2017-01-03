@@ -17,6 +17,10 @@ namespace Codenesium.Foundation.CommonMVC
 
         public List<ValidationErrorModel> ValidationErrors { get; set; }
 
+        public ApiDataResponse()
+        {
+        }
+
         public ApiDataResponse(object data)
         {
             this.Success = true;

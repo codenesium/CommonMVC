@@ -16,6 +16,10 @@ namespace Codenesium.Foundation.CommonMVC
         public string RedirectUrl { get; set; }
         public List<ValidationErrorModel> ValidationErrors { get; set; }
 
+        public ApiFailureResponse()
+        {
+        }
+
         /// <summary>
         /// This method takes fluent validation errors and converts them
         /// </summary>
