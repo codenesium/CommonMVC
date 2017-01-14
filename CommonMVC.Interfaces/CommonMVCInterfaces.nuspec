@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>CommonMVC.Interfaces</id>
+    <id>Codenesium.CommonMVC.Interfaces</id>
     <version>1.0-Beta</version>
     <title>CommonMVC Interfaces</title>
 	<description>none</description>
