@@ -161,23 +161,16 @@
   <ItemGroup>
     <Compile Include="MVC\Abstract\AbstractSecureController.cs" />
     <Compile Include="MVC\Abstract\AbstractEntityFrameworkController.cs" />
-    <Compile Include="MVC\ApiRedirectResponse.cs" />
     <Compile Include="MVC\Attributes\SecureMvcAttribute.cs" />
     <Compile Include="MVC\AutofacValidatorFactory.cs" />
-    <Compile Include="MVC\ApiDataResponse.cs" />
-    <Compile Include="MVC\ApiFailureResponse.cs" />
-    <Compile Include="MVC\ApiSuccessResponse.cs" />
     <Compile Include="MVC\Abstract\AbstractEntityFrameworkApiController.cs" />
     <Compile Include="MVC\Abstract\AbstractPublicApiController.cs" />
     <Compile Include="MVC\Abstract\AbstractApiSecureController.cs" />
     <Compile Include="MVC\Attributes\ModelValidationFilter.cs" />
     <Compile Include="MVC\Attributes\SecureApiAttribute.cs" />
     <Compile Include="MVC\Attributes\UnitOfWorkAttribute.cs" />
-    <Compile Include="MVC\Constants.cs" />
-    <Compile Include="MVC\IApiResponse.cs" />
     <Compile Include="MVC\ResponseHelper.cs" />
     <Compile Include="MVC\Swagger\SwaggerController.cs" />
-    <Compile Include="MVC\ValidationErrorModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -187,7 +180,12 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CommonMVc.Interfaces\CommonMVC.Interfaces.csproj">
+      <Project>{50f51f05-a5fe-4c04-93ec-bdb00f0ed969}</Project>
+      <Name>CommonMVC.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
