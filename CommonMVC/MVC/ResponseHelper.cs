@@ -11,10 +11,11 @@ namespace Codenesium.Foundation.CommonMVC
 {
     public static class HTTPResponseHelper
     {
-        public static HttpResponseMessage ToJSONResponse(this object obj)
+        public static HttpResponseMessage ToJSONResponse(this object obj, System.Net.HttpStatusCode statusCode)
         {
             var response = new HttpResponseMessage()
             {
+                StatusCode = statusCode,
                 Content = new StringContent(JsonConvert.SerializeObject(obj))
             };
 
