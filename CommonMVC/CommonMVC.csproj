@@ -43,15 +43,15 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="BCrypt.Net, Version=0.1.4141.31969, Culture=neutral, PublicKeyToken=f3bc8f8c31beeb49, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\BCrypt.Net.dll</HintPath>
+      <HintPath>..\packages\BCrypt.Net.0.1.0\lib\net35\BCrypt.Net.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Codenesium.DataConversionExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\Codenesium.DataConversionExtensions.dll</HintPath>
+      <HintPath>..\packages\Codenesium.DataConversionExtensions.1.0.0-Beta\lib\net461\Codenesium.DataConversionExtensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Codenesium.Encryption, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\Codenesium.Encryption.dll</HintPath>
+      <HintPath>..\packages\Codenesium.Encryption.1.0.0-Beta\lib\net461\Codenesium.Encryption.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Codenesium.JWTSessionAuth, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -67,11 +67,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="FluentAssertions, Version=4.18.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\FluentAssertions.dll</HintPath>
+      <HintPath>..\packages\FluentAssertions.4.18.0\lib\net45\FluentAssertions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="FluentAssertions.Core, Version=4.18.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\FluentAssertions.Core.dll</HintPath>
+      <HintPath>..\packages\FluentAssertions.4.18.0\lib\net45\FluentAssertions.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="FluentValidation, Version=6.2.1.0, Culture=neutral, processorArchitecture=MSIL">
@@ -83,15 +83,15 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="jose-jwt, Version=1.9.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\jose-jwt.dll</HintPath>
+      <HintPath>..\packages\jose-jwt.1.9.3\lib\4.0\jose-jwt.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Logging, Version=1.0.0.127, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\Microsoft.IdentityModel.Logging.dll</HintPath>
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.1.0.0\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.0.0.127, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\Microsoft.IdentityModel.Tokens.dll</HintPath>
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.0.0\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -99,15 +99,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="NLog, Version=3.2.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\NLog.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -115,7 +107,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.IdentityModel" />
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.0.0.127, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.0.0\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -123,6 +115,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
       <Private>True</Private>
@@ -162,7 +155,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="Thinktecture.IdentityModel.Core, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\Thinktecture.IdentityModel.Core.dll</HintPath>
+      <HintPath>..\packages\Thinktecture.IdentityModel.Core.1.4.0\lib\net45\Thinktecture.IdentityModel.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
