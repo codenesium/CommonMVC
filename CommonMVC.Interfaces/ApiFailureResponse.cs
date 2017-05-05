@@ -8,11 +8,7 @@ namespace Codenesium.Foundation.CommonMVC
     [Serializable]
     public class ApiFailureResponse : IApiResponse
     {
-        public bool Success { get; set; }
-        public bool ReloadApplication { get; set; }
         public string Message { get; set; }
-        public object Data { get; set; }
-        public string RedirectUrl { get; set; }
         public List<ValidationErrorModel> ValidationErrors { get; set; }
 
         public ApiFailureResponse()
@@ -26,10 +22,7 @@ namespace Codenesium.Foundation.CommonMVC
         /// <param name="validationErrors"></param>
         public ApiFailureResponse(string message, IList<ValidationFailure> validationErrors)
         {
-            this.Success = false;
-            this.Message = message;
-            this.ValidationErrors = ProcessFluentValidationErrors(validationErrors);
-            this.RedirectUrl = String.Empty;
+
         }
 
         /// <summary>
@@ -39,18 +32,14 @@ namespace Codenesium.Foundation.CommonMVC
         /// <param name="ValidationErrors"></param>
         public ApiFailureResponse(string message, List<ValidationErrorModel> validationErrors)
         {
-            this.Success = false;
             this.Message = message;
             this.ValidationErrors = validationErrors;
-            this.RedirectUrl = String.Empty;
         }
 
         public ApiFailureResponse(string message)
         {
-            this.Success = false;
             this.Message = message;
             this.ValidationErrors = new List<ValidationErrorModel>();
-            this.RedirectUrl = String.Empty;
         }
 
         private List<ValidationErrorModel> ProcessFluentValidationErrors(IList<ValidationFailure> validationErrors)

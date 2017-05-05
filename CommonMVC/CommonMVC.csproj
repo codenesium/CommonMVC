@@ -170,7 +170,6 @@
     <Compile Include="MVC\Attributes\ModelValidationFilter.cs" />
     <Compile Include="MVC\Attributes\SecureApiAttribute.cs" />
     <Compile Include="MVC\Attributes\UnitOfWorkAttribute.cs" />
-    <Compile Include="MVC\ResponseHelper.cs" />
     <Compile Include="MVC\Swagger\SwaggerController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

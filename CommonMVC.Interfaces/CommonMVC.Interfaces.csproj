@@ -46,8 +46,6 @@
   <ItemGroup>
     <Compile Include="ApiDataResponse.cs" />
     <Compile Include="ApiFailureResponse.cs" />
-    <Compile Include="ApiRedirectResponse.cs" />
-    <Compile Include="ApiSuccessResponse.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="IApiResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
