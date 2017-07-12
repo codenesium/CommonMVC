@@ -47,7 +47,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Codenesium.DataConversionExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.DataConversionExtensions.1.0.0-Beta\lib\net461\Codenesium.DataConversionExtensions.dll</HintPath>
+      <HintPath>..\packages\Codenesium.DataConversionExtensions.2017.1.1\lib\net461\Codenesium.DataConversionExtensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Codenesium.Encryption, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
