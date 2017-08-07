@@ -32,6 +32,10 @@ namespace Codenesium.Foundation.CommonMVC
                 {
                     throw;
                 }
+                finally
+                {
+                    controller.Context.Dispose();
+                }
             }
             else
             {
@@ -45,6 +49,10 @@ namespace Codenesium.Foundation.CommonMVC
                 catch (Exception)
                 {
                     throw;
+                }
+                finally
+                {
+                    controller.Context.Dispose();
                 }
             }
 
