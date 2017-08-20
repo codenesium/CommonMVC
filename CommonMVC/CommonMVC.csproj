@@ -42,20 +42,8 @@
       <HintPath>..\packages\Autofac.WebApi2.3.4.0\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="BCrypt.Net, Version=0.1.4141.31969, Culture=neutral, PublicKeyToken=f3bc8f8c31beeb49, processorArchitecture=MSIL">
-      <HintPath>..\packages\BCrypt.Net.0.1.0\lib\net35\BCrypt.Net.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Codenesium.DataConversionExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Codenesium.DataConversionExtensions.2017.1.1\lib\net461\Codenesium.DataConversionExtensions.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Codenesium.Encryption, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.Encryption.1.0.0-Beta\lib\net461\Codenesium.Encryption.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Codenesium.JWTSessionAuth, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Codenesium.JWTSessionAuth.1.0.0-Beta\lib\net461\Codenesium.JWTSessionAuth.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -82,10 +70,6 @@
       <HintPath>..\packages\FluentValidation.MVC5.6.2.1.0\lib\Net45\FluentValidation.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="jose-jwt, Version=1.9.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\jose-jwt.1.9.3\lib\4.0\jose-jwt.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.IdentityModel.Logging, Version=1.0.0.127, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.IdentityModel.Logging.1.0.0\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
       <Private>True</Private>
@@ -106,10 +90,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.IdentityModel" />
-    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.0.0.127, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.0.0\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
       <Private>True</Private>
@@ -154,19 +134,13 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Thinktecture.IdentityModel.Core, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Thinktecture.IdentityModel.Core.1.4.0\lib\net45\Thinktecture.IdentityModel.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MVC\Abstract\AbstractSecureController.cs" />
     <Compile Include="MVC\Abstract\AbstractEntityFrameworkController.cs" />
     <Compile Include="MVC\Attributes\ReadOnlyFilter.cs" />
     <Compile Include="MVC\AutofacValidatorFactory.cs" />
     <Compile Include="MVC\Abstract\AbstractEntityFrameworkApiController.cs" />
     <Compile Include="MVC\Abstract\AbstractPublicApiController.cs" />
-    <Compile Include="MVC\Abstract\AbstractApiSecureController.cs" />
     <Compile Include="MVC\Attributes\ModelValidationFilter.cs" />
     <Compile Include="MVC\Attributes\UnitOfWorkAttribute.cs" />
     <Compile Include="MVC\Swagger\SwaggerController.cs" />

@@ -1,15 +1,20 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>Codenesium.CommonMVC.Interfaces</id>
-    <version>1.0-Beta</version>
-    <title>CommonMVC Interfaces</title>
-	<description>none</description>
+    <version>$version$</version>
+    <title>CommonMVC.Interfaces</title>
     <authors>Codenesium LLC</authors>
     <owners>Codenesium LLC</owners>
-    <copyright>Copyright 2016</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Interfaces for Common API functionality</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+	<summary>Interfaces for API</summary>
+	<licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/codenesium/CommonMVC</projectUrl>
   </metadata>
-  	<files>
+    <files>
 		<file src="bin\Release\Codenesium.Foundation.CommonMVC.Interfaces.dll" target="lib\net461\" />
 	</files>
 </package>

@@ -12,7 +12,7 @@ namespace Codenesium.Foundation.CommonMVC
 {
     /// <summary>
     /// From https://json.codes/blog/integrating-fluent-validation-with-aspnet-web-api/
-    /// Provides a validatin module for classes that end with "Validator"
+    /// Provides a validation module for classes that end with "Validator"
     /// </summary>
     public class AutofacValidatorFactory : ValidatorFactoryBase
     {
