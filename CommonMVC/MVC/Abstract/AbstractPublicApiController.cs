@@ -13,6 +13,7 @@ namespace Codenesium.Foundation.CommonMVC
             ILogger logger,
             DbContext context) : base(logger, context)
         {
+            this.Context.Configuration.LazyLoadingEnabled = false;
         }
     }
 }

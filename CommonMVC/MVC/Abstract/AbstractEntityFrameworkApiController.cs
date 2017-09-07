@@ -21,6 +21,7 @@ namespace Codenesium.Foundation.CommonMVC
         {
             this._logger = logger;
             this.Context = context;
+            this.Context.Configuration.LazyLoadingEnabled = false;
         }
     }
 }
